@@ -1,0 +1,5 @@
+config:
+  radiusMin: 0
+  radiusMax: 100
+  CotWx: 0
+  CotWz: 0

@@ -1,0 +1,20 @@
+name: BSPRandomTeleport
+version: 1.1.0
+main: jenn.randomteleport.RandomTeleport
+depend: [mcore, Factions]
+commands:
+  randomteleportreload:
+    description: Reloads the Random Teleport config files.
+    usage: /rtpreload
+    permission: rtp.commands
+    permission-message: You do not have permission to use this command.
+    aliases: [randomtpreload, rtpreload]
+  randomteleport:
+    description: Random teleports a player.
+    usage: /rtp or /rtp <player>
+    permission: rtp.commands
+    permission-message: You do not have permission to use this command.
+    aliases: [randomtp, rtp]
+permissions:
+  rtp.commands:
+    default: op
