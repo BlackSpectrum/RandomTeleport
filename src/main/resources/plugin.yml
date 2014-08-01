@@ -1,6 +1,6 @@
 name: BSPRandomTeleport
-version: 1.1.0
-main: jenn.randomteleport.RandomTeleport
+version: 1.1.1
+main: eu.blackspectrum.randomteleport.RandomTeleport
 depend: [mcore, Factions]
 commands:
   randomteleportreload:
